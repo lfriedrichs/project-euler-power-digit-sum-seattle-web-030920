@@ -6,4 +6,5 @@ def power_digit_sum(base, power)
     digits << number % 10 
     number = number / 10 
   end
+  digits.sum
 end
